@@ -1,0 +1,61 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+.link-colored {
+    color: #350b40 !important;
+}
+
+.bg-colored {
+    background-color: #ece7d8;
+}
+
+.carousel.bg-colored {
+    background-color: #350b40;
+}
+
+.quote {
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.text-height {
+    line-height: 2.75rem
+}
+
+h1.underlined-text {
+    font-family: "Lobster Two", cursive;
+    font-style: italic;
+    font-size: 2rem;
+    color: #350b40;
+}
+
+h1.underlined-text:hover {
+    color: #f875aa;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}
+
+.header-text {
+    font-family: "Lobster Two", cursive;
+    font-size: 3.5rem;
+}
+
+.btn-blue {
+    background-color: #bee5d3;
+    border-radius: 25px;
+    color: #350b40;
+    border-width: 2px;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: #f875aa !important;
+}
