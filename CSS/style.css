@@ -1,6 +1,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
     font-weight: 900;
+}
+
+p {
+    font-weight: 500;
 }
 
 .link-colored {
@@ -18,11 +26,14 @@ body {
 .quote {
     font-family: 'Sawarabi Gothic', sans-serif;
     font-size: 2rem;
-    font-weight: 900;
 }
 
 .text-height {
     line-height: 2.75rem
+}
+
+.text-sm {
+    font-size: 12px;
 }
 
 h1.underlined-text {
@@ -49,13 +60,39 @@ h1.underlined-text:hover {
     background-color: #bee5d3;
     border-radius: 25px;
     color: #350b40;
-    border-width: 2px;
+    border-width: 1.75px;
+}
+
+.navbar-toggler-icon:hover {
+    color: #f875aa !important;
 }
 
 .nav-link {
     font-size: 1.5rem;
+    text-align: center;
+    font-weight: 900;
 }
 
 .nav-link:hover {
     color: #f875aa !important;
+}
+
+.img-flip {
+    border-radius: 50%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+
+.img-flip:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.img-zoom {
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.img-zoom:hover {
+    transform: scale(1.05);
 }

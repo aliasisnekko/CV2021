@@ -14,18 +14,20 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/carousel.css">
-    <title>Webpage Template</title>
+    <title>Nekko's Website</title>
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-md bg-colored">
-            <a href="http://nekkostreet.com">
+            <a href="https://www.nekkostreet.com/">
                 <h1 class="header-text underlined-text">Sites by Nekko Street
                 </h1>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon btn-lg btn-dark"></span>
+    <span>
+        <i class="fa fa-list navbar-toggler-icon" aria-hidden="true"></i>
+    </span>
   </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
@@ -33,7 +35,7 @@
                         <a class="nav-link link-colored" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-colored mr-5" href="#">Link</a>
+                        <a class="nav-link link-colored mr-3" href="#">Link</a>
                     </li>
 
                 </ul>
@@ -72,7 +74,7 @@
 
                             <h1 class="header-text">Nekko Street</h1>
                             <p class="text-height">I am a Front-End Web Developer working to further my knowledge in front and back-end code by learning MERN stack development. My dream is to build simple, responsive websites that users automatically fall in love with. When
-                                coding I like to think outside of the box about what the next developer that looks at my code would go through, ensuring that I use modular and commented code. </p>
+                                coding I like to go above and beyond and constantly think about what the next developer would go through when they look at my projects by using commented and modular code.</p>
                             <p><a class="btn btn-lg btn-blue btn-outline-info mt-3" href="https://github.com/aliasisnekko" role="button">View my GitHub projects</a></p>
                         </div>
                     </div>
@@ -103,27 +105,28 @@
         <!-- Wrap the rest of the page in another container to center all the content. -->
 
         <div class="container marketing">
-
+            <div class="col mb-5 text-center">
+                <h1 class="">My Skills:</h1>
+            </div>
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="./Pics/html.png" alt="" srcset="">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                    <img class="w-50 mb-5 img-flip" src="/Pics/js.webp" alt="" srcset="">
+                    <p>The JavaScript I've learned over the years has assisted me in my deployment of interactive webpages, now I'm soon to go into learning ReactJS.</p>
+                    <p><a class="btn btn-secondary mt-4" href="https://aliasisnekko.github.io/playground/" role="button">Interact with this page &raquo;</a></p>
                 </div>
                 <!-- /.col-lg-4 -->
-                <div class="col-lg-4"><img src="./Pics/css.jpg" alt="" srcset="">
-                    <h2>Heading</h2>
-                    <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+
+                <div class="col-lg-4">
+                    <img class="w-50 mb-5 img-flip" src="/Pics/css.png" alt="" srcset="">
+                    <p>My knowledge in styling websites insures your user will have a pleasant experience while navigating your webpage.</p>
+                    <p><a class="btn btn-secondary mt-5" href="https://aliasisnekko.github.io/HomePageCV/" role="button">Check out my style &raquo;</a></p>
                 </div>
                 <!-- /.col-lg-4 -->
-                <div class="col-lg-4"><img src="./Pics/javascript.jpg" alt="" srcset="">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
-                        amet risus.</p>
-                    <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+                <div class="col-lg-4">
+                    <img class="w-50 mb-1 img-flip" src="/Pics/node-icon.PNG" alt="" srcset="">
+                    <p class="mt-3">My ability to use nodeJS to run modules, delpoy applications through git, push my code to remote repositories make me a prime candidate to deploy your web applications.</p>
+                    <p><a class="btn btn-secondary" href="https://weatherappbynekko.herokuapp.com/" role="button">Use my weather application &raquo;</a></p>
                 </div>
                 <!-- /.col-lg-4 -->
             </div>
@@ -136,11 +139,13 @@
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
+                    <h2>We develop the front-end and<br> back-end.<span class="text-muted text-sm"><br>Click image to see for yourself.</span></h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                 </div>
                 <div class="col-md-5">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                    <a href="https://nekkostreetnewsletter.herokuapp.com/">
+                        <img class="img-zoom" src="/Pics/signup.PNG" alt="" srcset=""></a>
+
                 </div>
             </div>
 
@@ -148,11 +153,12 @@
 
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+                    <h2>We listen to our users, do you?<span class="text-muted text-sm"><br>Click image to see for yourself.</span></h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+                    <a href="https://aliasisnekko.github.io/Interactive-Drums/">
+                        <img class="w-100 img-zoom" src="/Pics/drumsite.PNG" alt="" srcset=""></a>
                 </div>
             </div>
 
@@ -160,7 +166,7 @@
 
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
+                    <h2>Check<span class="text-muted"> and mate.</span></h2>
                     <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
                 </div>
                 <div class="col-md-5">
@@ -179,7 +185,8 @@
         <!-- FOOTER -->
         <footer class="container">
             <p class="float-right"><a class="link-colored" href="#">Back to top</a></p>
-            <p>&copy; Nekko Street LLC &middot; <a class="link-colored" href="#">Privacy</a> &middot; <a class="link-colored" href="#">Terms</a></p>
+            <p>&copy; Nekko Street LLC &middot; <a class="link-colored" href="#">Privacy &middot;</a>
+                <a class="link-colored" href="#">Terms</a></p>
         </footer>
     </main>
 
