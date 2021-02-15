@@ -56,11 +56,20 @@ h1.underlined-text:hover {
     font-size: 3.5rem;
 }
 
+.btn {
+    border-radius: 25px;
+    border-width: 1.75px;
+}
+
 .btn-blue {
     background-color: #bee5d3;
-    border-radius: 25px;
     color: #350b40;
-    border-width: 1.75px;
+}
+
+.btn-pink {
+    background-color: #f875aa;
+    color: #fff;
+    border-color: #000;
 }
 
 .navbar-toggler-icon:hover {
@@ -94,5 +103,5 @@ h1.underlined-text:hover {
 }
 
 .img-zoom:hover {
-    transform: scale(1.05);
+    transform: scale(1.11);
 }
