@@ -11,10 +11,6 @@ p {
     font-weight: 500;
 }
 
-.link-colored {
-    color: #350b40 !important;
-}
-
 .bg-colored {
     background-color: #ece7d8;
 }
@@ -40,10 +36,13 @@ h1.underlined-text {
     font-family: "Lobster Two", cursive;
     font-style: italic;
     font-size: 2rem;
+}
+
+.link-colored {
     color: #350b40;
 }
 
-h1.underlined-text:hover {
+.link-colored:hover {
     color: #f875aa;
 }
 
@@ -80,10 +79,6 @@ h1.underlined-text:hover {
     font-size: 1.5rem;
     text-align: center;
     font-weight: 900;
-}
-
-.nav-link:hover {
-    color: #f875aa !important;
 }
 
 .img-flip {
